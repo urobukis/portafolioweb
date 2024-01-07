@@ -53,7 +53,7 @@
     width: 6em;
 }
 
-@media (min-width: 410px) and (max-width:730px){
+@media (min-width: 250px) and (max-width:730px){
     .foto{
         height: 15em;
         z-index: 2;
@@ -84,7 +84,7 @@
     }
 
     @keyframes mover{
-        0%{margin-left: 50%;}
+        0%{margin-left: 0%;}
         25%{margin-left: -100%;}
         50%{margin-left: -200%;}
         75%{margin-left: -300%;}
