@@ -4,7 +4,7 @@ const banner=()=>{
 
     return<>
 
-    <div className="dualcol-test  grid md:grid-cols-2 text-center md:text-6xl  place-items-center max-w-full">
+    <div id="home" className="dualcol-test  grid md:grid-cols-2 text-center md:text-6xl  place-items-center max-w-full">
 
         <div className="">
 

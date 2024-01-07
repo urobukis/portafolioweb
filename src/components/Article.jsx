@@ -1,11 +1,11 @@
 const Article=()=>(<>
-    <div className="text-center max-w-full mx-[7.5%]">
-        <h2 className="tittleGray mb-5 mt-4 text-5xl mb-8">Profesional en desarrollo web, enfocado en <br />E-comerce y React</h2>
+    <div  id="sobremi" className="text-center max-w-full mx-[7.5%]">
+        <h2  className="tittleGray mb-5 mt-4 text-5xl mb-8">Profesional en desarrollo web, enfocado en <br />E-comerce y React</h2>
 
         <div className="rounded-lg border-2 border-[#30789E]">
             <div className="bg-[#30789E] rounded-sm"><h3 className="text-xl text-[#EBEBEB] capitalize">sobre mi</h3></div>
             <div className="mt-2 mb-2">
-                <p className="text-justify mx-4 textGray text-xl">Mi nombre es Abraham Silva, siempre me he sentido apasionado por el diseño y la programación, pero no fue sino hasta el inicio de la pandemia que me decidí a dedicarme a mi pasión. <br /><br /> En la actualidad trabajo de forma Frelance tanto en la creación de publicidad para redes sociales como la programación de sitios web enfocándome especialmente en el uso de react. Siempre estoy buscando aprender más y crecer en este maravilloso mundo creativo para volver la visión de mis clientes en una realidad.</p>
+                <p  className="text-justify mx-4 textGray text-xl">Mi nombre es Abraham Silva, siempre me he sentido apasionado por el diseño y la programación, pero no fue sino hasta el inicio de la pandemia que me decidí a dedicarme a mi pasión. <br /><br /> En la actualidad trabajo de forma Frelance tanto en la creación de publicidad para redes sociales como la programación de sitios web enfocándome especialmente en el uso de react. Siempre estoy buscando aprender más y crecer en este maravilloso mundo creativo para volver la visión de mis clientes en una realidad.</p>
             </div>
         </div>
     </div>
