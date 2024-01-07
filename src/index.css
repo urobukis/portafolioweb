@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.google.com/specimen/Lato?query=lato&stroke=Sans+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    background-color: #EBEBEB;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color:#30789E ;
+}
+.site{
+    font-family: 'Lato', sans-serif;
+    color:#404040;
+}
+
+.textGray{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #404040;
+}
+
+.tittleGray{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #404040;
+}
+
+.tittleBlue{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #30789E;
+}
+
+
+.titulo{
+    font-family: 'Oswald', sans-serif;
+}
+.shadow{
+    text-shadow: #404040 1px 1px 0px;
+}
+
+.icono{
+    fill:#404040;
+    width: 6em;
+}
+
+@media (min-width: 410px) and (max-width:730px){
+    .foto{
+        height: 15em;
+        z-index: 2;
+        margin-left: 8%;
+    }
+    .sobreAzul{
+        color:#30789E;
+    }
+    .padre {
+        display:flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        overflow-x: scroll;
+        
+        }
+     .padre ul{
+        width: 100%;
+        align-items: center;
+
+    }
+    .padre li{
+        display:flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        height: 20em;
+        scroll-snap-align: center;
+        animation: mover 20s linear infinite;
+    }
+
+    @keyframes mover{
+        0%{margin-left: 50%;}
+        25%{margin-left: -100%;}
+        50%{margin-left: -200%;}
+        75%{margin-left: -300%;}
+        100%{margin-left: -300%;}
+    }
+
+
+
+    .tamaño{
+        height: 20em;
+    }
+
+}
+@media (min-width: 790px) and (max-width:1304px){
+    .foto{
+        height: 9em;
+        z-index: 2;
+        margin-left: 0%;
+    
+
+    }
+    .sobreAzul{
+        color:#EBEBEB;
+    }
+}
+
+@media (min-width: 1310px) and (max-width:1400px){
+    .foto{
+        height: 10em;
+        z-index: 2;
+        margin-left: 0%;
+    
+
+    }
+    .sobreAzul{
+        color:#EBEBEB;
+    }
+    .wmodif{
+        width: 25em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) and (max-width:2068px){
+    .foto{
+        height: 15em;
+        z-index: 2;
+        margin-left: 0%;
+    
+
+    }
+    .sobreAzul{
+        color:#EBEBEB;
+    }
+
+    .wmodif{
+        width: 35em;
+        text-align: center;
+    }
+}
+
+.dualcol-test {
+    background: linear-gradient(to bottom, #EBEBEB 0%, #EBEBEB 50%, rgb(48,120,158) 50%, rgba(235,235,235,0.8029586834733894) 100%);
+    
+}
