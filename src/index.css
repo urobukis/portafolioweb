@@ -96,6 +96,11 @@
     .tamaño{
         height: 20em;
     }
+    .vmodif ul li{
+        justify-items: center;
+        align-items: center;
+        place-items: center;
+    }
 
 }
 @media (min-width: 790px) and (max-width:1304px){
