@@ -1,6 +1,6 @@
 const Article=()=>(<>
     <div  id="sobremi" className="text-center max-w-full mx-[7.5%]">
-        <h2  className="tittleGray mb-5 mt-4 text-5xl mb-8">Profesional en desarrollo web, enfocado en <br />E-comerce y React</h2>
+        <h2  className="tittleGray mb-5 mt-4 text-5xl textp mb-8">Profesional en desarrollo web, enfocado en <br />E-comerce y React</h2>
 
         <div className="rounded-lg border-2 border-[#30789E]">
             <div className="bg-[#30789E] rounded-sm"><h3 className="text-xl text-[#EBEBEB] capitalize">sobre mi</h3></div>

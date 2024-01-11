@@ -102,6 +102,10 @@
         place-items: center;
     }
 
+    .textp{
+        font-size: 2em;
+    }
+
 }
 @media (min-width: 790px) and (max-width:1304px){
     .foto{
